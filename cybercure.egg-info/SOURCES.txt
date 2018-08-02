@@ -1,7 +1,0 @@
-README.md
-setup.py
-cybercure/__init__.py
-cybercure.egg-info/PKG-INFO
-cybercure.egg-info/SOURCES.txt
-cybercure.egg-info/dependency_links.txt
-cybercure.egg-info/top_level.txt
