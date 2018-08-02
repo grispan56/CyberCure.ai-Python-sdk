@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cybercure
+Version: 0.2
+Summary: Python SDK to integrate cybercure.ai cyber intel feeds quickly and easily
+Home-page: https://github.com/grispan56/CyberCure.ai-Python-sdk
+Author: CyberCure.ai
+Author-email: author@example.com
+License: MIT
+Description: Cybercure.ai SDK allows quick and easy access to cybercure public data.
+        there are several calls available
+        
+        * get_hash_indicators()
+        * get_ip_indictors
+        * get_url_indicators
+        
+        Checkout the documentation at:
+        
+        for more details and parameters that can be used.
+        Feel free to fork and suggest improvments.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
