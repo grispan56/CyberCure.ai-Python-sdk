@@ -23,11 +23,9 @@ cc_logger.setLevel(logging.INFO)
 handler = logging.handlers.SysLogHandler(address = (syslog_ip,syslog_port))
 cc_logger.addHandler(handler)
 
-#init CyberCure class
-cc = cybercure.CyberCure()
 
 #get the ip addresses that are currently appear as active threats 
-active_blocked_ip = cc.get_ip_indicators(output_type)
+active_blocked_ip = cybercure.get_ip_indicators(output_type)
 
 #iterate the list of ip addresses that should be blocked and send using syslog
 if output_type == 'json':

@@ -6,6 +6,8 @@ The class called cybercure and can access several methods:
 * get_url_indicators()
 
 Checkout the documentation at:
+https://cybercureai-python-sdk.readthedocs.io/en/latest/
+or in docs dir.
 
 for more details and parameters that can be used.
 Feel free to fork and suggest improvments.

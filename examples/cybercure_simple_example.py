@@ -8,11 +8,8 @@ parser.add_argument("output_type", help="you can use any of the supported types:
 args = parser.parse_args()
 output_type=(args.output_type)
 
-#init CyberCure class
-cc = cybercure.CyberCure()
-
 #get the ip addresses that are currently appear as active threats 
-active_blocked_ip = cc.get_ip_indicators(output_type)
+active_blocked_ip = cybercure.get_ip_indicators(output_type)
 
 #iterate the list of ip addresses that should be blocked and do something
 if output_type == 'json':
