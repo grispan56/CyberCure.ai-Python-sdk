@@ -52,7 +52,7 @@ The easiest way to install cybercure python library is by using pip:
 **Code example**
 
 
-    >>> import cbercure
+    >>> import cybercure
     >>> active_blocked_ip = cybercure.get_ip_indicators(output_type)
     >>> print ("Okay.. I got %s records, now showing them:" % active_blocked_ip['count'])
     >>>	for threat in active_blocked_ip['data']['ip']:
