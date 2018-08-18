@@ -4,6 +4,7 @@ The class called cybercure and can access several methods:
 * get_hash_indicators()
 * get_ip_indictors()
 * get_url_indicators()
+* search()
 
 Checkout the documentation at:
 https://cybercureai-python-sdk.readthedocs.io/en/latest/

@@ -32,14 +32,14 @@ Release v\ |version|. (:ref:`Installation <install>`)
 SDK Calls
 ******************
 
-There are few calls exposed for use with cybercure.ai api.
+Cyber Cure expose several calls for use with cybercure.ai api.
 
-* get_hash_indicators()
-* get_ip_indictors()
-* get_url_indicators()
+* get_hash_indicators() - Allows to receive Hash indicators that are known to be currently spreading in the wild.
+* get_ip_indictors() - Allows to receive list of ip addresses that are currently attacking.
+* get_url_indicators() - Allows to receive list of URLs that are used by malware.
 
-several parameters can be specified such as the requested output to be returned.
-The examples folder contains several examples to show how the API can be used the intelligence 
+several parameters can be specified for the different calls, for example, the requested output to be returned.
+The examples folder contains several examples to show how the API can be used to gather the intelligence and spread
 to different targets, for example sending by CEF format using syslog or saving the output as STIX.
 
 **Installation**
