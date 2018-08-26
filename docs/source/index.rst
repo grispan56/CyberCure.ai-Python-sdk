@@ -29,14 +29,33 @@ Release v\ |version|. (:ref:`Installation <install>`)
 
 -------------------
 
+
+Welcome to Cybercure Python SDK documentation. he pyrthon SDK allows quick and easy access to cybercure API cyber threat intelligence data. 
+
+Feel free to read the documentation and if you have improvements in mind, please let us know.
+
+Table of Contents:
+=========
+
+.. toctree::
+   :maxdepth: 2
+
+   getip
+   geturl
+   gethash
+   changes
+   Fork cybrecure SDK <https://github.com/https://github.com/grispan56/CyberCure.ai-Python-sdk>
+
 SDK Calls
-******************
+=========
+
 
 Cyber Cure expose several calls for use with cybercure.ai api.
 
 * get_hash_indicators() - Allows to receive Hash indicators that are known to be currently spreading in the wild.
 * get_ip_indictors() - Allows to receive list of ip addresses that are currently attacking.
 * get_url_indicators() - Allows to receive list of URLs that are used by malware.
+* search() - Allows to search for specific indicators
 
 several parameters can be specified for the different calls, for example, the requested output to be returned.
 The examples folder contains several examples to show how the API can be used to gather the intelligence and spread
@@ -63,5 +82,8 @@ Make sure to checkout complete and updated documentation at:
 
 `cybercure documentaion <https://docs.cybercure.ai/docs>`_
 
-and also check for updates on `www.cybercure.ai <www.cybercure.ai>`_
+and also check for updates on `www.cybercure.ai <https://www.cybercure.ai>`_
+
+
+
 

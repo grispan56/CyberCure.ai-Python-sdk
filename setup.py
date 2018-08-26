@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cybercure",
-    version="0.4.3",
+    version="0.4.4",
     author="CyberCure.ai",
-    author_email="author@example.com",
+    author_email="contact@nucleon.sh",
     description="Python SDK to integrate cybercure.ai cyber intel feeds quickly and easily",
     long_description=long_description,
     long_description_content_type="text/markdown",
