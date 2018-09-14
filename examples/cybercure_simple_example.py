@@ -15,7 +15,7 @@ active_blocked_ip = cybercure.get_ip_indicators(output_type)
 if output_type == 'json':
 	print ("Okay.. I got %s records, now showing them:" % active_blocked_ip['count'])
 	for threat in active_blocked_ip['data']['ip']:
-		print "Are you blocking %s ?" % threat
+		print ("Are you blocking %s ?" % threat)
 else:
 	# if its not json, we are going to get text holding the data in the requested format
-	print active_blocked_ip
+	print (active_blocked_ip)
