@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/grispan56/CyberCure.ai-Python-sdk",
     license='MIT',
+    install_requires=['requests'],
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
